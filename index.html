@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Notes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header__title title">
+      <div class="title__decor"></div>
+      <div class="title__text">My Daily Notes</div>
+    </div>
+  </div>
+  <div class="calendar container">
+    <div class="calendar__title"></div>
+    <div class="calendar__table table"></div>
+  </div>
+  <div class="popup">
+    <div class="popup__bg"></div>
+    <div class="popup__body">
+      <div class="popup__content">
+        <h6 class="popup__title">Notes:</h6>
+        <button type="button" href="#" class="popup__close close-popup">x</button>
+        <div class="popup__notes"></div>
+        <form class="popup__form popup-form" action="#">
+          <div class="popup-form__taskField">
+            <textarea type="" placeholder="Add Note" name="taskDescrip" class="popup-form__descField"></textarea>
+          </div>
+          <div class="popup-form__saveBtn">
+            <button type="button" class="saveBtn">Save</button>
+          </div>
+          <div class="popup-form__closeModalBtn">
+            <button type="button" class="closeModalBtn">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/b95c58a40e.js" crossorigin="anonymous"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>
